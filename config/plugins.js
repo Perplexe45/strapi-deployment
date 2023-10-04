@@ -1,18 +1,18 @@
 module.exports = ({ env }) => ({
-  'strapi-plugin-populate-deep': {
+  "strapi-plugin-populate-deep": {
     config: {
       defaultDepth: 3, // Default is 5
-    }
+    },
   },
 
   // ...
   upload: {
     config: {
-      provider: 'cloudinary',
+      provider: "cloudinary",
       providerOptions: {
-        cloud_name: env('CLOUDINARY_NAME'),
-        api_key: env('CLOUDINARY_KEY'),
-        api_secret: env('CLOUDINARY_SECRET'),
+        cloud_name: env("datulrhpq"),
+        api_key: env("227542421376788"),
+        api_secret: env("iJW-SK1DqoYKdgY8QO7pn_2MNZA"),
       },
       actionOptions: {
         upload: {},
